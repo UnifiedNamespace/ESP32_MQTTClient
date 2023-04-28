@@ -6,8 +6,8 @@
 #include "WiFiClientSecure.h"
 #include "certificates.h"
 
-const char* ssid        = "Nordvegr";        // your network SSID (name of wifi network)
-const char* password    = "Redbull123";   // your network password
+const char* ssid        = "-";        // your network SSID (name of wifi network)
+const char* password    = "-";   // your network password
 //const char* mqtt_server = "clusterunifiednamespace.sytes.net"; 
 const char* mqtt_server = "unifiednamespace.sytes.net";  //Adress for your Mosquitto broker server, it must be the same adress that you set in Mosquitto.csr CN field
 int port                = 8883;             //Port to your Mosquitto broker server. Dont forget to forward it in your router for remote access
